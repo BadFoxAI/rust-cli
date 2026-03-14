@@ -1,0 +1,15 @@
+{
+  "name": "rust_cli",
+  "type": "module",
+  "version": "0.9.5",
+  "files": [
+    "rust_cli_bg.wasm",
+    "rust_cli.js",
+    "rust_cli.d.ts"
+  ],
+  "main": "rust_cli.js",
+  "types": "rust_cli.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
